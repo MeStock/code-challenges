@@ -14,6 +14,25 @@ using namespace std;
   The first line of the input contains Q where Q is the number of queries. The next Q lines contain 1 query each. Each query consists of two integers x and y where y is the type of the query and x is an integer.
 */
 
+/*
+Sample Input
+
+8
+1 9
+1 6
+1 10
+1 4
+3 6
+3 14
+2 6
+3 6
+Sample Output
+
+Yes
+No
+No
+*/
+
 int main() {
     set<int> numbers;
     int queries, type, number;
